@@ -5,7 +5,9 @@
  * For more details take a look at the Java Quickstart chapter in the Gradle
  * user guide available at https://docs.gradle.org/4.2/userguide/tutorial_java_projects.html
  */
-
+plugins{
+  id 'org.springframework.boot' version '1.5.7.RELEASE'
+}
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
 apply plugin: 'idea'
@@ -30,4 +32,6 @@ dependencies {
     // 'test.useTestNG()' to your build script.
     testCompile 'junit:junit:4.12'
 }
-
+task stage{
+  dependsOn build
+}
