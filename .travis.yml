@@ -1,8 +1,8 @@
 language: java
 deploy:
+  provider:heroku
   api-key:
     secure: fiN20xe89k5yTfE87piDd9wgEpkbaI4CR9n2gwA4sKQ54U0okYJ/z/uR8yGMNOKxntKFDYIvFFi7qVLsqNTM0z/BCrOmQK4u5+d9b0tG7zKEJmDdr5tsoWAnxxeVZLNAr6CHR0F5SCiFR4v3qBfv9b9bfJuULsPj13ucC+rTP2RJWxywXn/foz2JcHwWS/tykKNO2axROmP3n5UMOoKJ2eMat5L8TBhWso2r8rhC7XXHID8I6PfC9Nxwzwq3ql2Z2lpV9C0dDvIwpOSpenZxtOKAekT6vlXbHrCjvrUBYRMLYhQd3j/fmUElwN48WU0HVrkxNMY7s3JmZaGcIin8oGtDSN9vf9qnwNIKtTkqWZ/Z2Vv0iilO3JjZrxNVQDCgr0G+cwVg8vpsEenlE/8FN6yGhlDCyP2cU2IOQPLB7y46tbzp+HPJSe2QKIRUP2pj1tiekebhePWBwYa3i6UnrzqW6DdJo6o/U9fe5D13R2X7EbqZjbE8uh2DDIqWz3lazzTnuw/LyT9J5iFenRtZqtNPkJo66aSniPLEFSKJtqLOaz4O6/hY33kJ54K/qbZBSHvr5y4V7UYjy+9+WQrb5yRKw4Vj+4jC9OFx7G4qAMsINRjPAIEbC4GvnPzAtZgrTWvXeUblxM+Kaj8ew7EXwAIVAh3cKs8wo86GvLRChVs=
-  provider:heroku
   app:
     staging:abbudao-trilharest-filmes-stag
     master:abbudao-trilharest-filmes-prod
